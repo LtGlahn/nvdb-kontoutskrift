@@ -32,9 +32,9 @@
                 "id": 9413
             }
         ]
-    },   
+    },
     {
-        "navn": "Bruksklasse",
+        "navn": "Bruksklasse_UTGÅTT",
         "id": 871,
         "egenskapstyper": [
             {
@@ -55,9 +55,6 @@
     	"egenskapstyper": [{
     		"id": 10740,
     		"navn": "Strekningsbeskrivelse"
-    	}, {
-    		"id": 10747,
-    		"navn": "Veglisteversjon"
     	}],
     	"id": 893,
     	"navn": "Bruksklasse, 12/100-vegnett"
@@ -65,9 +62,6 @@
     	"egenskapstyper": [{
     		"id": 10739,
     		"navn": "Strekningsbeskrivelse"
-    	}, {
-    		"id": 10746,
-    		"navn": "Veglisteversjon"
     	}],
     	"id": 891,
     	"navn": "Bruksklasse, 12/65 mobilkran m.m."
@@ -87,9 +81,6 @@
     	}, {
     		"id": 10744,
     		"navn": "Gjelder ikke linksemitrailer"
-    	}, {
-    		"id": 10745,
-    		"navn": "Veglisteversjon"
     	}],
     	"id": 889,
     	"navn": "Bruksklasse, modulvogntog"
@@ -98,26 +89,11 @@
     		"id": 10901,
     		"navn": "Bruksklasse"
     	}, {
-    		"id": 10907,
-    		"navn": "Bruksklasse vinter"
-    	}, {
     		"id": 10913,
     		"navn": "Maks vogntoglengde"
     	}, {
     		"id": 10919,
     		"navn": "Strekningsbeskrivelse"
-    	}, {
-    		"id": 10925,
-    		"navn": "Maks totalvekt kjøretøy, skiltet"
-    	}, {
-    		"id": 10926,
-    		"navn": "Maks totalvekt vogntog, skiltet"
-    	}, {
-    		"id": 11009,
-    		"navn": "Merknad"
-    	}, {
-    		"id": 11210,
-    		"navn": "Veglisteversjon"
     	}],
     	"id": 904,
     	"navn": "Bruksklasse, normaltransport"
@@ -125,9 +101,6 @@
     	"egenskapstyper": [{
     		"id": 10899,
     		"navn": "Bruksklasse"
-    	}, {
-    		"id": 10905,
-    		"navn": "Bruksklasse vinter"
     	}, {
     		"id": 10911,
     		"navn": "Maks vogntoglengde"
@@ -137,12 +110,6 @@
     	}, {
     		"id": 10917,
     		"navn": "Strekningsbeskrivelse"
-    	}, {
-    		"id": 11007,
-    		"navn": "Merknad"
-    	}, {
-    		"id": 11209,
-    		"navn": "Veglisteversjon"
     	}],
     	"id": 902,
     	"navn": "Bruksklasse, spesialtransport"
@@ -151,27 +118,15 @@
     		"id": 10897,
     		"navn": "Bruksklasse"
     	}, {
-    		"id": 10903,
-    		"navn": "Bruksklasse vinter"
-    	}, {
     		"id": 10909,
     		"navn": "Maks vogntoglengde"
     	}, {
     		"id": 10915,
     		"navn": "Strekningsbeskrivelse"
-    	}, {
-    		"id": 10921,
-    		"navn": "Maks totalvekt"
-    	}, {
-    		"id": 11005,
-    		"navn": "Merknad"
-    	}, {
-    		"id": 11208,
-    		"navn": "Veglisteversjon"
     	}],
     	"id": 900,
     	"navn": "Bruksklasse, tømmertransport"
-    },      
+    },
     {
         "navn": "Fartsgrense",
         "id": 105,
@@ -199,7 +154,7 @@
                 "id": 9402
             }
         ]
-    },       
+    },
     {
         "navn": "Høydebegrensning",
         "id": 591,
@@ -237,7 +192,7 @@
                 "id": 5778
             }
         ]
-    },                  
+    },
     {
         "navn": "Tunnel",
         "id": 581,
@@ -291,7 +246,7 @@
                 "id": 9517
             }
         ]
-    },                             
+    },
     {
         "navn": "Tunnelløp",
         "id": 67,
@@ -323,16 +278,3 @@
         ]
     }
 ]
-
-               
-                
-                  
-                    
-            
-          
-               
-
-
-
-
-
