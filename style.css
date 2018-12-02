@@ -157,6 +157,10 @@ input[type=submit]:hover {
   background: #D72F27;
 }
 
+.vnull {
+  background: #999966;
+
+
 /*
 a:hover .prosent span {
   background: #ff9600;
