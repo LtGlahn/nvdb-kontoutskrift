@@ -31,6 +31,7 @@ import datetime
 # In[7]:
 
 
+
 def prosentklasser( ant, tot_antall ): 
 # '<span class="v80-100 ">92.0%</span>'
 
@@ -137,14 +138,16 @@ def hentstatistikk( typedefinisjon, testrun=False):
             
     return statistikk
 
-def hentvegobjekter(testrun=False ): 
-    with open( 'datasett1.json') as f: 
+def hentvegobjekter(testrun=False ):
+
+    directory = '/home/jan/nvdb-kontoutskrift/' 
+    with open( directory + 'datasett1.json') as f: 
         data1 = json.load(f)
         
-    with open( 'datasett2.json') as f: 
+    with open( directory + 'datasett2.json') as f: 
         data2 = json.load(f)
     
-    with open( 'datasett3.json') as f: 
+    with open( directory + 'datasett3.json') as f: 
         data3 = json.load(f)
     
     definisjoner = data1 + data2 + data3 
@@ -162,7 +165,7 @@ def hentvegobjekter(testrun=False ):
         statistikk[ typedefinisjon['id'] ] = delstatistikk 
     
     # historikk/2018-12-01.json
-    fname = 'historikk/' + datetime.datetime.today().strftime('%Y-%m-%d') + '.json'
+    fname = directory + 'historikk/' + datetime.datetime.today().strftime('%Y-%m-%d') + '.json'
     with open( fname, 'w') as f: 
         json.dump(statistikk, f, ensure_ascii=True)
 
