@@ -8,10 +8,6 @@
                 "id": 9596
             },
             {
-                "navn": "Bomstasjonstype",
-                "id": 9390
-            },
-            {
                 "navn": "Gratis gjennomkjøring ved HC-brikke",
                 "id": 9404
             },
@@ -20,34 +16,12 @@
                 "id": 9414
             },
             {
-                "navn": "Tidsdifferensiert takst",
-                "id": 9409
-            },
-            {
                 "navn": "Timesregel",
                 "id": 9412
             },
             {
                 "navn": "Vedtatt til år",
                 "id": 9413
-            }
-        ]
-    },
-    {
-        "navn": "Bruksklasse_UTGÅTT",
-        "id": 871,
-        "egenskapstyper": [
-            {
-                "navn": "Maks vogntoglengde",
-                "id": 10163
-            },
-            {
-                "navn": "Strekningsbeskrivelse",
-                "id": 10170
-            },
-            {
-                "navn": "Veggruppe",
-                "id": 10178
             }
         ]
     },
