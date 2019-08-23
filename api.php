@@ -22,7 +22,7 @@ function getData($path) {
 	$path = str_replace(",", "%2C", $path);
 	
 	
-    $url = 'https://www.vegvesen.no/nvdb/api'.$path;
+    $url = 'https://www.vegvesen.no/nvdb/api/v1'.$path;
 
     $options = array(
         'http'=>array(
