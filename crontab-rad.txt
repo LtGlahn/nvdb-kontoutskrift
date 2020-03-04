@@ -1,0 +1,1 @@
+0 0 1 * * /usr/bin/python3 /home/jan/nvdb-kontoutskrift/lagstatistikk.py >> ~/.chron.log 2>&1
