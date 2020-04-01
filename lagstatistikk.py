@@ -140,7 +140,7 @@ def hentstatistikk( typedefinisjon, testrun=False):
 
 def hentvegobjekter(testrun=False ):
 
-    directory = '/home/jan/nvdb-kontoutskrift/' 
+    directory = '/home/jajens/nvdb-kontoutskrift/' 
     with open( directory + 'datasett1.json') as f: 
         data1 = json.load(f)
         
